@@ -122,7 +122,7 @@ router.use('/edit-repacking-data', async (req, res) => {
 
   await Promise.all(newListPayload);
 
-  res.json({message: 'success'})
+  res.json({message: 'success'});
 
 })
 
